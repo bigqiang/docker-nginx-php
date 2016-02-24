@@ -4,9 +4,10 @@
 This is a [million12/nginx-php](https://registry.hub.docker.com/u/million12/nginx-php/) docker container with Nginx + PHP-FPM combo. 
 
 For different PHP versions, look up different branches of this repository. On Docker Hub you can find them under different tags:    
-* `million12/nginx-php:latest` - PHP 5.6 (master branch)
-* `million12/nginx-php:php-55` - PHP 5.5 ([php-55](https://github.com/million12/docker-nginx-php/tree/php-55) branch)
-* `million12/nginx-php:php-70` - PHP 7.0-dev aka PHPNG ([php-70](https://github.com/million12/docker-nginx-php/tree/php-70) branch)
+* `million12/nginx-php:latest` - PHP 7.0 # built from `master` branch [![Circle CI](https://circleci.com/gh/million12/docker-nginx-php.svg?style=svg)](https://circleci.com/gh/million12/docker-nginx-php)
+* `million12/nginx-php:php70` - PHP 7.0 # built from `php70` branch [![Circle CI](https://circleci.com/gh/million12/docker-nginx-php/tree/php70.svg?style=svg)](https://circleci.com/gh/million12/docker-nginx-php/tree/php70)
+* `million12/nginx-php:php56` - PHP 5.6 # built from `php56` branch [![Circle CI](https://circleci.com/gh/million12/docker-nginx-php/tree/php56.svg?style=svg)](https://circleci.com/gh/million12/docker-nginx-php/tree/php56)
+* `million12/nginx-php:php55` - PHP 5.5 # built from `php55` branch [![Circle CI](https://circleci.com/gh/million12/docker-nginx-php/tree/php55.svg?style=svg)](https://circleci.com/gh/million12/docker-nginx-php/tree/php55)
 
 
 #### Things included:
